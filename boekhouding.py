@@ -9,7 +9,7 @@ inkomsten={
     "Waterijsjes-totaal":750
 }
 totaal_inkomsten=som(inkomsten)
-presenteer (inkomsten, totaal_inkomsten)
+presenteer(inkomsten, totaal_inkomsten)
 
 with open('boekhouding.csv', 'w',newline='') as csvfile:
      for key, value in inkomsten.items():
